@@ -15,9 +15,13 @@ forward = [[-1,  0], # 0: go north
  To test the correctness of your A* implementation, when using cost = [1, 1, 10] your code should return 
 
 ['-', '-', '-', 'R', 'F', 'R']
+
 ['-', '-', '-', 'F', '-', 'F']
+
 ['*', 'F', 'F', 'F', 'F', 'R']
+
 ['-', '-', '-', 'F', '-', '-']
+
 ['-', '-', '-', 'F', '-', '-'] 
 
 In this case, the elements in your closed set (i.e. the expanded nodes) are: 
